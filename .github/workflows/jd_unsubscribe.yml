@@ -19,9 +19,7 @@ jobs:
     steps:
       - name: Checkout
         run: |
-          git clone https://github.com/Phoenixzwh/scripts_test.git ~/scripts         
-          Username: Phoenixzwh
-          Password: 8d9e04efe7e1624599b4bf659f127f7844c5cbc3
+          git clone https://github.com/Phoenixzwh/scripts_test.git ~/scripts
       - name: Use Node.js 10.x
         uses: actions/setup-node@v1
         with:
